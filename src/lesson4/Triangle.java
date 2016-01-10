@@ -44,6 +44,10 @@ public class Triangle {
 	}
 	
 	public static void main(String[] args) {
+		int i = 4;
+		i--;
+		System.out.println(i);
+		
 		String s = "bbb";
 		int[] tt ={1,2};
 		

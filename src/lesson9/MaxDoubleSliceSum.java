@@ -23,7 +23,7 @@ public class MaxDoubleSliceSum {
 				maxLeft = Math.max(maxLeft + A[i-2], A[i-2]);
 				maxEnding = max2(maxLeft, A[i-1], maxEnding + A[i-1]);
 				maxSlice = Math.max(maxSlice, maxEnding);
-			}
+		 	}
 			return maxSlice;
 		}
 	}
